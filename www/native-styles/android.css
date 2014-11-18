@@ -1,0 +1,79 @@
+
+/* --- Tab Bar --- */
+
+tab-bar {
+  background-color: #EBEBEB;
+  border-top: 1px #D8D8D8 solid;
+}
+
+tab-bar tab-bar-item {
+  font-family: "Avenir";
+  font-size: 14px;
+  color: #3E3E3E;
+}
+
+tab-bar tab-bar-item:selected {
+  color: #111111;
+}
+
+tab-bar tab-bar-item:pressed {
+  color: black;
+}
+
+/* vertical separator between tab items */
+tab-bar divider {
+  background-color: #D8D8D8;
+}
+
+/* top and bottom markers */
+
+tab-bar tab-bar-item marker-top {
+  background-color: #00ffffff;
+}
+
+tab-bar tab-bar-item marker-top:selected {
+  background-color: #0299CC;
+}
+
+tab-bar tab-bar-item marker-bottom {
+  background-color: #00ffffff;
+}
+
+/*
+tab-bar tab-bar-item marker-bottom:selected {
+  background-color: green;
+}
+*/
+
+/*
+tab-bar tab-bar-item image {
+  background-image: url(icons/shoebox@2x.png);
+}
+*/
+
+
+
+/* --- Navigation Bar --- */
+
+navigation-bar {
+  background-color: #EBEBEB;
+}
+
+navigation-bar title {
+  color: #363636;
+  font-size: 20px;
+}
+
+navigation-bar back-bar-button {
+  color: #9A9A9A;
+  font-size: 17px;
+}
+
+navigation-bar back-indicator {
+  background-image: url(default_back_icon.png);
+  background-size: 30;
+}
+
+navigation-bar back-bar-button:pressed {
+  color: blue;
+}

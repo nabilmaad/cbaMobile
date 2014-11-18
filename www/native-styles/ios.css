@@ -1,0 +1,35 @@
+
+/* --- Tab Bar --- */
+
+tab-bar {
+  background-color: #ffffff;
+  border-top: 1px #D8D8D8 solid;
+}
+
+tab-bar tab-bar-item {
+  font-family: "Avenir";
+  font-size: 10px;
+  color: #b0b1b4;
+}
+
+tab-bar tab-bar-item:selected {
+  color: #1596f7;
+}
+
+
+
+/* --- Navigation Bar --- */
+
+navigation-bar {
+  background-color: #1596f7;
+}
+
+navigation-bar title {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+navigation-bar back-bar-button {
+  color: #ffffff;
+  font-size: 16px;
+}
