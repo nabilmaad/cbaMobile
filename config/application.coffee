@@ -4,24 +4,24 @@
 steroids.config.name = "cbaMobile"
 
 # ## Start Location
-steroids.config.location = "http://localhost/index.html"
+steroids.config.location = "http://localhost/views/Home/index.html"
 
 # ## Tab Bar
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     id: "index"
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     id: "internet"
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+  {
+    id: "index"
+    title: "Home"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/views/Home/index.html"
+  },
+  {
+    id: "locations"
+    title: "Locations"
+    icon: "icons/telescope@2x.png"
+    location: "http://www.google.com"
+  }
+]
 
 # ## Preloads
 # steroids.config.preloads = [
