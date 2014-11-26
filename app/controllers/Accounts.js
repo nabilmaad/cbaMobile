@@ -11,11 +11,12 @@ function loadAccounts() {
 
 	 $.when(getAccounts()).done(function(accounts) {
    		$.each(accounts, function(i, account){
-				myDiv = '<a id="account'+account.accountId+'" href="#" class="list-group-item">'+
+				myDiv = '<a id="account'+account.accountId+'" onClick="openLayer(\'/Checking/index.html\')" class="list-group-item">'+
 							    '<table style="width:100%">'+
 							      '<tr>'+
 							        '<th style=padding:10px">'+account.accountType+'</th>'+
-							        '<th style="text-align:right;"><font color="#000000">$'+account.accountBalance+'</font></th>'+
+							        '<th style="text-align:right;"><font color="#000000">CAD $'+
+							        parseFloat(Math.round(account.accountBalance * 100) / 100).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")+'</font></th>'+
 							        '<th style="text-align:right;">&gt;</th>'+
 							      '</tr>'+
 							      '<tr>'+
