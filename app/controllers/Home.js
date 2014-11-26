@@ -1,1 +1,5 @@
-steroids.view.navigationBar.show("CBA Mobile");
+
+
+steroids.view.navigationBar.show({
+    titleImagePath: "/img/navbar@2x.png"
+});
