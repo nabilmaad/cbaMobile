@@ -13,14 +13,14 @@ steroids.config.tabBar.tabs = [
   {
     id: "index"
     title: "Home"
-    icon: "icons/pill@2x.png"
+    icon: "icons/accounts@2x.png"
     location: "http://localhost/views/Home/index.html"
   },
   {
     id: "locations"
     title: "Locations"
-    icon: "icons/telescope@2x.png"
-    location: "http://localhost/views/Dashboard/index.html"
+    icon: "icons/locations@2x.png"
+    location: "http://localhost/views/Accounts/index.html"
   }
 ]
 
