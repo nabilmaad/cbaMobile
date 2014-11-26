@@ -8,7 +8,7 @@ steroids.config.location = "http://localhost/views/Home/index.html"
 
 # ## Tab Bar
 steroids.config.tabBar.enabled = true
-steroids.config.tabBar.selectedTabTintColor = "#9bce43";
+steroids.config.tabBar.selectedTabTintColor = "#6aa248";
 steroids.config.tabBar.tabs = [
   {
     id: "index"

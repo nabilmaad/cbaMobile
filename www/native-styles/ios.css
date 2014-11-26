@@ -13,7 +13,7 @@ tab-bar tab-bar-item {
 }
 
 tab-bar tab-bar-item:selected {
-  color: #9bce43;
+  color: #6aa248;
 }
 
 
@@ -21,7 +21,7 @@ tab-bar tab-bar-item:selected {
 /* --- Navigation Bar --- */
 
 navigation-bar {
-  background-color: #9bce43;
+  background-color: #6aa248;
 }
 
 navigation-bar title {
