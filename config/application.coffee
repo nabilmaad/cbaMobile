@@ -8,6 +8,7 @@ steroids.config.location = "http://localhost/views/Home/index.html"
 
 # ## Tab Bar
 steroids.config.tabBar.enabled = true
+steroids.config.tabBar.selectedTabTintColor = "#9bce43";
 steroids.config.tabBar.tabs = [
   {
     id: "index"
@@ -19,7 +20,7 @@ steroids.config.tabBar.tabs = [
     id: "locations"
     title: "Locations"
     icon: "icons/telescope@2x.png"
-    location: "http://www.google.com"
+    location: "https://www.google.com"
   }
 ]
 
