@@ -13,22 +13,21 @@
   <script src="/components/steroids-js/steroids.js"></script>
 
   <script src="/controllers/application.js"></script>
-  <script src="/javascripts/application.js"></script>
   <script src="/controllers/<%= yield.controller %>.js"></script>
 <style>
   body, html{
               height: 100%;
               width: 100%;
             }
-  img {
-    width: 100px;
-    height: 125px;
+  #helpNumbers {
+    width: 100%;
   }
-  #icon {
-    padding-top: 25px;
+  #helpNumbers tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
   }
-  #iconLabel{
-    text-align: center;
+  #helpNumbers tr.helpRow td {
+    padding: 10px;
   }
   </style>
 
