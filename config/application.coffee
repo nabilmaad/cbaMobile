@@ -14,8 +14,8 @@ steroids.config.tabBar.enabled = true
 steroids.config.tabBar.selectedTabTintColor = "#6aa248";
 steroids.config.tabBar.tabs = [
   {
-    id: "index"
-    title: "Home"
+    id: "home"
+    title: "Accounts"
     icon: "icons/accounts@2x.png"
     location: "http://localhost/views/Home/index.html"
   },
