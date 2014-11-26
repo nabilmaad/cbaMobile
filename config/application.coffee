@@ -6,6 +6,9 @@ steroids.config.name = "cbaMobile"
 # ## Start Location
 steroids.config.location = "http://localhost/views/Home/index.html"
 
+# ## Navigation Bar
+steroids.config.navigationBar.buttonTintColor = "#ffffff";
+
 # ## Tab Bar
 steroids.config.tabBar.enabled = true
 steroids.config.tabBar.selectedTabTintColor = "#6aa248";

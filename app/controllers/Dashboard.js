@@ -1,7 +1,8 @@
-steroids.view.navigationBar.show({
-    titleImagePath: "/img/navbar@2x.png"
-});
+// Change back button to "Home" and add logo
+var backButton = new steroids.buttons.NavigationBarButton();
+backButton.title = "Home"
 
-steroids.view.navigationBar.setAppearance({
-  tintColor: '#9bce43'
+steroids.view.navigationBar.update({
+    titleImagePath: "/img/navbar@2x.png",
+	backButton: backButton
 });
