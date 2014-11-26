@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Steroids App</title>
+
+  <link rel="stylesheet" href="/vendor/ionic/css/ionic.css" />
+  <link rel="stylesheet" href="/stylesheets/application.css" />
+
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="http://localhost/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+
+  <script src="/controllers/application.js"></script>
+  <script src="/controllers/<%= yield.controller %>.js"></script>
+<style>
+  body, html{
+              height: 100%;
+              width: 100%;
+            }
+  tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+  }
+  tr.helpRow td {
+    padding: 10px;
+  }
+  </style>
+
+</head>
+<body class="content" style="background-color:#f8f8f8">
+
+  <%= yield.view %>
+
+</body>
+</html>
