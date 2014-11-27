@@ -1,0 +1,56 @@
+<table class="transfersForm">
+    
+<!-- from -->
+  <tr class="helpRow">
+    <td align="left"><span style="font-weight:bold">From:</span></td>
+    <td align="right" onClick="toggleAccountsDataFrom();"><span id="selectAccountFrom" style="color:grey; opacity:0.5">Select Account ></span></td>
+  </tr>
+</table>
+
+<!-- accounts from -->
+  <table id="accounts" class="accountsFrom hide">
+      <tr>
+          <th>Banking</th>
+          <th style="text-align:right;padding-right: 20px">Balance</th>
+      </tr>
+  </table>
+  
+  <div id="Banking Accounts From" class="accountsFrom hide">
+  </div>
+  
+  <table id="accounts" class="accountsFrom hide">
+      <tr>
+          <th>Credit</th>
+          <th style="text-align:right;padding-right: 20px">Balance</th>
+      </tr>
+  </table>
+  
+  <div id="Credit Accounts From" class="accountsFrom hide">
+  </div>
+  
+  <table id="accounts" class="accountsFrom hide">
+      <tr>
+          <th>Investment</th>
+          <th style="text-align:right;padding-right: 20px">Balance</th>
+      </tr>
+  </table>
+  
+  <div id="Investment Accounts From" class="accountsFrom hide">
+  </div>
+
+<!-- to -->
+<table class="transfersForm">
+  <tr class="helpRow">
+    <td align="left"><span style="font-weight:bold">To:</span></td>
+    <td align="right"><form><input type="email" placeholder="Enter Payee's Email"></form></td>
+  </tr>
+</table>
+
+  <!-- amount -->
+<table class="transfersForm">
+  <tr class="helpRow">
+    <td align="left"><span style="font-weight:bold">Amount:</span></td>
+    <td align="right"><input style="widtd:110px" type="text" pattern="[0-9]*" placeholder="Enter Amount"/></td>
+  </tr>
+</table>
+<button onClick="alert('Money Transfered!')" type="button" class="btn btn-success btn-block transfersForm">Submit</button>
