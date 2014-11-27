@@ -7,6 +7,16 @@ steroids.view.navigationBar.update({
 	backButton: backButton
 });
 
+function sucessAlert() {
+  navigator.notification.alert(
+        'Money Sent',  // message
+        alertDismissed,         // callback
+        'Sucess!',            // title
+        'Done'                  // buttonName
+    );
+  function alertDismissed() {}
+}
+
 function toggleAccountsDataFrom(selectedAccount) {
     var appears = false;
     var accountsData = document.getElementsByClassName('accountsFrom');
