@@ -7,6 +7,16 @@ steroids.view.navigationBar.update({
 	backButton: backButton
 });
 
+function successAlert() {
+  navigator.notification.alert(
+        'Transfer Complete',  // message
+        alertDismissed,         // callback
+        'Sucess!',            // title
+        'Done'                  // buttonName
+    );
+  function alertDismissed() {}
+}
+
 function toggleAccountsDataFrom(selectedAccount) {
     var appears = false;
     var accountsData = document.getElementsByClassName('accountsFrom');
