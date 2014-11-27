@@ -23,7 +23,7 @@ steroids.config.tabBar.tabs = [
     id: "locations"
     title: "Locations"
     icon: "icons/locations@2x.png"
-    location: "http://www.google.com"
+    location: "http://localhost/views/Locations/index.html"
   }
 ]
 

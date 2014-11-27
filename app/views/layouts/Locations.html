@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Steroids App</title>
+
+  <link rel="stylesheet" href="/vendor/ionic/css/ionic.css" />
+  <link rel="stylesheet" href="/stylesheets/application.css" />
+
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="http://localhost/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+
+  <script src="/controllers/application.js"></script>
+  <script src="/controllers/<%= yield.controller %>.js"></script>
+  <link rel="stylesheet" href="/stylesheets/leaflet.css" />
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+    }
+  </style>
+
+</head>
+<body class="content" style="background-color:#f8f8f8">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <%= yield.view %>
+
+<script src="/javascripts/leaflet-src.js"></script>
+<script src="/javascripts/leaflet-indoor.js"></script>
+
+<!-- Map -->
+
+<!-- Configutation - contains key/value data structures to be used by the rest of the application -->
+<script src="/javascripts/config.js"></script>
+
+<!-- Helper Module - contains methods to be used by the rest of the application -->
+<script src="/javascripts/helper.js"></script>
+
+<!-- World Map Creation Module - creates a world map object and connects it to the map -->
+<script src="/javascripts/create-world-map-layer.js"></script>
+
+</body>
+</html>
