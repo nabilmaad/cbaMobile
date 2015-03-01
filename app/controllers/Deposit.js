@@ -76,7 +76,7 @@ function loadAccounts() {
     function getAccounts() {
         return $.ajax({
                       type: "GET",
-                      url: "http://54.174.101.160/Accounts.json",
+                      url: "http://54.152.50.12/Accounts.json",
                       dataType: "json",
                       crossDomain: true
                       });
